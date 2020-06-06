@@ -6,7 +6,7 @@
                     <div class="card-header">header</div>
 
                     <div class="card-body">
-                        mudaaa
+                        <input type="test" v-model="test">
                     </div>
                     {{test}}
                 </div>

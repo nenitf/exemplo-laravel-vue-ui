@@ -93,5 +93,6 @@ php artisan ui vue
 yarn
 #yarn dev # public/css/app public/js/app.js
 yarn watch
+yarn hot
 ```
 <!-- vim: set nospell: -->

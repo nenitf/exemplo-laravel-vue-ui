@@ -11,6 +11,7 @@
 
         <link href="{{asset('css/app.css')}}" rel="stylesheet">
 
+
     </head>
     <body>
 
@@ -19,6 +20,6 @@
 
 </example-component>
 </div>
-    <script src="{{asset('js/app.js')}}"></script>
+    <script src="{{ (env('APP_ENV') === 'local') ? mix('js/app.js') : asset('js/app.js') }}"></script>
     </body>
 </html>
